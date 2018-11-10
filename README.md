@@ -14,14 +14,23 @@ PHP 5.6+
 Логин-пароль от сайта и адрес темы, как и адрес форм авторизации и т.п.
 должны быть вынесены в отдельный файл конфигурации.
 
+# About
+All configuration is in the `.env` file. All parsed posts will be in the `posts` directory.
+
+# Requirements
+1. PHP 7.1+
+
 # Run parser
-Only 2 steps:
 1. checkout project via `GIT`
 ```
 cd /path/to/project
 git clone https://github.com/lutdev/techtask.git
 ```
-2. Run
+2. Create `.env` file
+```
+rsync env.example .env
+```
+3. Run
 ```
 php index.php
 ```
