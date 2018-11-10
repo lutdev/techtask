@@ -14,14 +14,29 @@ PHP 5.6+
 Логин-пароль от сайта и адрес темы, как и адрес форм авторизации и т.п.
 должны быть вынесены в отдельный файл конфигурации.
 
-# v0.1
+# Run parser
+Only 2 steps:
+1. checkout project via `GIT`
+```
+cd /path/to/project
+git clone https://github.com/lutdev/techtask.git
+```
+2. Run
+```
+php index.php
+```
+
+# Versions
+Current version is `0.4` (master branch)
+
+## v0.1
 Create simple parser
 
-# v0.2
+## v0.2
 Create authorisation
 
-# v0.3
+## v0.3
 Init configuration
 
-# v0.4
-Init composer etc
+## v0.4
+Init composer, autoloader and write classes.
